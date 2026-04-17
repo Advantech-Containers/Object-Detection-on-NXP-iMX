@@ -3,7 +3,7 @@ version: "3.8"
 services:
   object-detection-on-nxp-imx:
     container_name: object-detection-on-nxp-imx
-    image: harbor.edgesync.cloud/nagarro-container-images/object-detection-on-nxp-imx:v1
+    image: edgesync.azurecr.io/advantech/object-detection-on-nxp-imx:1.5.0-Ubuntu20.04-ARM
     privileged: true
     environment:
       - DISPLAY=${DISPLAY}
